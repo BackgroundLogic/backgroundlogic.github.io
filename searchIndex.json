@@ -1,15 +1,15 @@
 [
 {
 		"title": "BackgroundLogic's Garden",
-		"date":"Tue Aug 26 2025 21:11:03 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Aug 26 2025 21:13:06 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
-		"content": "Welcome!\n\nHi, I'm BackgroundLogic welcome to my garden. It's a place where I can organize my digital footprint and share things I've created. It's still evolving but I hope you find what you're looking for here.\n\n# Personal Projects\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/home-server/\">Home Server</a>\nI run a server in my home office which I use for network storage and hosting personal web services.\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/garden-backgroundlogic-dev/\">My Digital Garden</a>\nA central place to link and organize my digital footprint.\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/background-cooks/\">BackgroundCooks</a>\nAn online recipe book of dishes I've made or adapted from other sources.\n\nBackground Around\nGithub - Where I share code I've written and where I host <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/garden-backgroundlogic-dev/\">this website</a>.\n@BackgroundLogic.bsky.social - Because Twitter is owned by a Nazi now.\nBackground Cooks - A digital cookbook where I post all my favorite recipes.",
+		"content": "Welcome!\n\nHi, I'm BackgroundLogic welcome to my garden. It's a place where I can organize my digital footprint and share things I've created. It's still evolving but I hope you find what you're looking for here.\n\nPersonal Projects\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/home-server/\">Home Server</a>\nI run a server in my home office which I use for network storage and hosting personal web services.\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/garden-backgroundlogic-dev/\">My Digital Garden</a>\nA central place to link and organize my digital footprint.\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/background-cooks/\">BackgroundCooks</a>\nAn online recipe book of dishes I've made or adapted from other sources.\n\nBackground Around\nGithub - Where I share code I've written and where I host <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/garden-backgroundlogic-dev/\">this website</a>.\n@BackgroundLogic.bsky.social - Because Twitter is owned by a Nazi now.\nBackground Cooks - A digital cookbook where I post all my favorite recipes.",
 		"tags": [ "note","gardenEntry"]
 },
 
 {
 		"title": "BackgroundCooks",
-		"date":"Tue Aug 26 2025 21:11:03 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Aug 26 2025 21:13:06 GMT+0000 (Coordinated Universal Time)",
 		"url":"/pages/background-cooks/",
 		"content": "A Cooking Garden\nBackgroundCooks was my first Digital Garden and is meant as a recipe book.\nIn it I break down recipes into multiple ones whenever a part could be used for more than one recipe. For instance I have a Pie Crust recipe that I use for multiple other recipes and so they just link to the pie crust recipe for that section.\nSome recipes I have created from scratch such as my Basic Sourdough and others that I have re-written for my own understanding and ease of reading from other sources, with those sources cited like with Vedbread a recipe from Hero's Feast: A D&amp;D Cookbook.\nI update it periodically whenever I get into a new recipe, but that recipe usually goes through several revisions before I publish it.",
 		"tags": [ "note"]
@@ -17,7 +17,7 @@
 
 {
 		"title": "Home Server",
-		"date":"Tue Aug 26 2025 21:11:03 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Aug 26 2025 21:13:06 GMT+0000 (Coordinated Universal Time)",
 		"url":"/pages/home-server/",
 		"content": "Why a Home Server?\nIt started with wanting to stop using google/microsoft for things like backing up photos, contacts, documents, ect. I considered using a service like Proton where it's hosted in a famously neutral country, but decided that for the long run, I'd rather just have all the data in a box at home.\nFrankly, I wanted more say of what is done with my data existing online. Now I'm more selective with what I share online and everything else gets backed up to NextCloud and Jellyfin.\nProcess\nI had previously tinkered with Raspberry Pi home services but with a cheap case and that system eventually burnt itself out. This time I decided I was going to get a good purpose made case and settled on the Argon EON Pi NAS.\nIt's solid aluminum which is all connected to the heat sink so the whole body acts as heat distribution (overkill for the Raspberry Pi), it also has a built in SATA board for mounting up to 2xSSD and 2xHDD or 4xSSD (plus a single internal 3.0 USB-A port). The only real downside is that the case is only designed to be compatible with the Raspberry Pi 4, hardly a downside (in 2025).\nFor a month or so I prototyped the setup using the internal USB port instead of the drives which I hadn't purchased yet and did not have any spares laying around. The final setup has the OS on the SD card but everything else is stored on the other drives, this includes configuration files, backups, docker images, ect. This way if the SD card ever fails I can simply reinstall it from a backup on a new SD card and plug it in.\nOpen Media Vault 7 (OMV7) provides a web based GUI for managing the shares and docker deployments. This and the rare ssh allows me to manage the system from anywhere on my local network.\nThe first service I decided to start was PiHole for several reasons. Mostly because I could manage DHCP assignments through it more easily than through my router. Doing this also meant that both OMV7 and PiHole had to assign their own IP addresses. OMV7 can do this easily though settings, PiHole is running in docker so I was able to assign it an address in the docker compose file. With the IP addresses configured PiHole safely took over DHCP. PiHole is also providing adblocking across my whole network for all devices.\nHardware\nMotherboard: Raspberry Pi 4 8GB\nCase: Argon EON Pi NAS\nStorage: 1x1TB SSD, 1x4TB HDD\nSoftware\nOS: Raspberry Pi OS (latest)\nManagement Software: Open Media Vault 7\nDocker Containers:\n\nPiHole - DHCP server, network wide adblocking\nNginxProxyManager - GUI frontend for Nginx, used for reverse proxy\nJellyfin - A media server for personal use\nNextCloud - A cloud similar to office365 or google\nActual Budget - A budgeting software similar to YNAB",
 		"tags": [ "note"]
@@ -25,7 +25,7 @@
 
 {
 		"title": "Personal Projects",
-		"date":"Tue Aug 26 2025 21:11:03 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Aug 26 2025 21:13:06 GMT+0000 (Coordinated Universal Time)",
 		"url":"/pages/personal-projects/",
 		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/home-server/\">Home Server</a>\nI run a server in my home office which I use for network storage and hosting personal web services.\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/garden-backgroundlogic-dev/\">My Digital Garden</a>\nA central place to link and organize my digital footprint.\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/background-cooks/\">BackgroundCooks</a>\nAn online recipe book of dishes I've made or adapted from other sources.",
 		"tags": [ "note"]
@@ -33,7 +33,7 @@
 
 {
 		"title": "garden.backgroundlogic.dev",
-		"date":"Tue Aug 26 2025 21:11:03 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Aug 26 2025 21:13:06 GMT+0000 (Coordinated Universal Time)",
 		"url":"/pages/garden-backgroundlogic-dev/",
 		"content": "About\nI made this 'Garden' as a place to share things I make and to have a place to point people to when they ask. This website is hosted on GitHub using the GitHub Pages feature, it is a static site built using Obsidian Notes with an addon called Digital Garden.\nHow?\nWhile obsidian notes is primarily a note taking application that functions like a wiki, digital garden uploads selected notes to a GitHub repository with a static site template, then updates GitHub Pages. Once setup the workflow is very simple, just write a note, check the box to publish, and push the notes to GitHub. After a minute the website updates with the new changes.",
 		"tags": [ "note"]
