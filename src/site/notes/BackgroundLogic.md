@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/background-logic/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/background-logic/","pinned":true,"tags":["gardenEntry"]}
 ---
 
 # Welcome!
