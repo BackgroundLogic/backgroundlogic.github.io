@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/pages/garden-backgroundlogic-dev/"}
 ---
 
----
+
 # About
 I made this 'Garden' as a place to share things I make and to have a place to point people to when they ask. This website is hosted on GitHub using the GitHub Pages feature, it is a static site built using Obsidian Notes with an addon called Digital Garden. 
 

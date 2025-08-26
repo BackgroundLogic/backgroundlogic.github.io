@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/pages/background-cooks/"}
 ---
 
----
+
 # A Cooking Garden
 BackgroundCooks was my first Digital Garden and is meant as a recipe book. 
 

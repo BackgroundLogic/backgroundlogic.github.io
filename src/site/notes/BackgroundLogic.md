@@ -12,7 +12,7 @@ Hi, I'm BackgroundLogic welcome to my garden. It's a place where I can organize 
 
 
 
----
+
 [[Pages/Home Server\|Home Server]]
 I run a server in my home office which I use for network storage and hosting personal web services.
 

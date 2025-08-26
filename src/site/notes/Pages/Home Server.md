@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/pages/home-server/"}
 ---
 
----
+
 # Why a Home Server?
 It started with wanting to stop using google/microsoft for things like backing up photos, contacts, documents, ect. I considered using a service like Proton where it's hosted in a famously neutral country, but decided that for the long run, I'd rather just have all the data in a box at home. 
 
