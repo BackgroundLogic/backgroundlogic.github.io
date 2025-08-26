@@ -1,7 +1,7 @@
 [
 {
 		"title": "BackgroundLogic",
-		"date":"Tue Aug 26 2025 19:01:56 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Aug 26 2025 19:07:43 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
 		"content": "Welcome!\n\nHi, I'm BackgroundLogic welcome to my garden. It's a place where I can organize my digital footprint and share things I've created. It's still evolving but I hope you find what you're looking for here.\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/home-server/\">Home Server</a>\nI run a server in my home office which I use for network storage and hosting personal web services.\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/garden-backgroundlogic-dev/\">My Digital Garden</a>\nA central place to link and organize my digital footprint.\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/background-cooks/\">BackgroundCooks</a>\nAn online recipe book of dishes I've made or adapted from other sources.\n\nBackground Around\nGithub - Where I share code I've written and where I host <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/garden-backgroundlogic-dev/\">this website</a>.\n@BackgroundLogic.bsky.social - Because Twitter is owned by a Nazi now.\nBackground Cooks - A digital cookbook where I post all my favorite recipes.",
 		"tags": [ "note","gardenEntry"]
@@ -9,7 +9,7 @@
 
 {
 		"title": "BackgroundCooks",
-		"date":"Tue Aug 26 2025 19:01:56 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Aug 26 2025 19:07:43 GMT+0000 (Coordinated Universal Time)",
 		"url":"/pages/background-cooks/",
 		"content": "A Cooking Garden\nBackgroundCooks was my first Digital Garden and is meant as a recipe book.\nIn it I break down recipes into multiple ones whenever a part could be used for more than one recipe. For instance I have a Pie Crust recipe that I use for multiple other recipes and so they just link to the pie crust recipe for that section.\nSome recipes I have created from scratch such as my Basic Sourdough and others that I have re-written for my own understanding and ease of reading from other sources, with those sources cited like with Vedbread a recipe from Hero's Feast: A D&amp;D Cookbook.\nI update it periodically whenever I get into a new recipe, but that recipe usually goes through several revisions before I publish it.",
 		"tags": [ "note"]
@@ -17,7 +17,7 @@
 
 {
 		"title": "Home Server",
-		"date":"Tue Aug 26 2025 19:01:56 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Aug 26 2025 19:07:43 GMT+0000 (Coordinated Universal Time)",
 		"url":"/pages/home-server/",
 		"content": "Why a Home Server?\nIt started with wanting to stop using google/microsoft for things like backing up photos, contacts, documents, ect. I considered using a service like Proton where it's hosted in a famously neutral country, but decided that for the long run, I'd rather just have all the data in a box at home.\nFrankly, I wanted more say of what is done with my data existing online. Now I'm more selective with what I share online and everything else gets backed up to NextCloud and Jellyfin.\nHardware\nMotherboard: Raspberry Pi 4 8GB\nCase: Argon EON Pi NAS\nStorage: 1x1TB SSD, 1x4TB HDD\nSoftware\nOS: Raspberry Pi OS (latest)\nManagement Software: Open Media Vault 7\nDocker Containers:\n\nPiHole - DHCP server, network wide adblocking\nNginxProxyManager - GUI frontend for Nginx, used for reverse proxy\nJellyfin - A media server for personal use\nNextCloud - A cloud similar to office365 or google\nActual Budget - A budgeting software similar to YNAB",
 		"tags": [ "note"]
@@ -25,7 +25,7 @@
 
 {
 		"title": "Personal Projects",
-		"date":"Tue Aug 26 2025 19:01:56 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Aug 26 2025 19:07:43 GMT+0000 (Coordinated Universal Time)",
 		"url":"/pages/personal-projects/",
 		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/home-server/\">Home Server</a>\nI run a server in my home office which I use for network storage and hosting personal web services.\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/garden-backgroundlogic-dev/\">My Digital Garden</a>\nA central place to link and organize my digital footprint.\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/pages/background-cooks/\">BackgroundCooks</a>\nAn online recipe book of dishes I've made or adapted from other sources.",
 		"tags": [ "note"]
@@ -33,7 +33,7 @@
 
 {
 		"title": "garden.backgroundlogic.dev",
-		"date":"Tue Aug 26 2025 19:01:56 GMT+0000 (Coordinated Universal Time)",
+		"date":"Tue Aug 26 2025 19:07:43 GMT+0000 (Coordinated Universal Time)",
 		"url":"/pages/garden-backgroundlogic-dev/",
 		"content": "About\nI made this 'Garden' as a place to share things I make and to have a place to point people to when they ask. This website is hosted on GitHub using the GitHub Pages feature, it is a static site built using Obsidian Notes with an addon called Digital Garden.\nHow?\nWhile obsidian notes is primarily a note taking application that functions like a wiki, digital garden uploads selected notes to a GitHub repository with a static site template, then updates GitHub Pages. Once setup the workflow is very simple, just write a note, check the box to publish, and push the notes to GitHub. After a minute the website updates with the new changes.",
 		"tags": [ "note"]
